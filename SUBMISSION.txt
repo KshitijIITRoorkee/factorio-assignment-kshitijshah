@@ -1,0 +1,14 @@
+Name: Kshitij Shah
+Email: kshitij_s@cs.iitr.ac.in
+
+Operating System: Windows 11 Pro (64-bit)
+CPU: Intel Core i7-12700H (12th Gen)
+RAM: 16 GB
+
+Language & Version: Python 3.11.7
+Solver Libraries: SciPy 1.14.0 (HiGHS linear optimizer)
+
+Notes:
+- Deterministic results using lexicographic ordering and strict tolerances (1e−9).
+- Typical runtime < 1s per sample; may take up to ~4s on Windows for initial SciPy load.
+- Both tools read JSON from stdin and emit a single JSON object to stdout with no logs.
